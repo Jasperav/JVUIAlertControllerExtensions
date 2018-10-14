@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299B73331CEF72054A550AF10ED9CA71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2EE5BB90423BA927C78BC98649A5D761 /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE37468B5E33EEF83CF1AAF097FF708E /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m */; };
+		534981AE24F382562D5009222E039EFC /* JVUIAlertControllerExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB5151D03B79848546631CE933EE66FF /* JVUIAlertControllerExtensions-dummy.m */; };
+		56E1F77ED162CF7F734F655F4C89A5A5 /* Pods-JVUIAlertControllerExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11634F78FBB0F82FA9CB1F445F2ABE8 /* Pods-JVUIAlertControllerExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73AAFF979C0575BF3F3EDAB156F511A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		A5B841953D9AADC2F93282F3BFB2D04A /* UIAlertControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3F5E6139375D35861A62D688A1BAE /* UIAlertControllerExtensions.swift */; };
+		E3605DC80143D239EF8A73824619CD02 /* JVUIAlertControllerExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE154FF51252F7C1E6BED3306B495A8C /* JVUIAlertControllerExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DB4C5DDB4CE73539D44D2A6855824B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93C26A4AB57A00BB5E727349CACA9DA;
+			remoteInfo = JVUIAlertControllerExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A347DDE3ADE4DBA7B3FE6B4D60376E /* Pods-JVUIAlertControllerExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVUIAlertControllerExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
+		1F0A07B263283CC60EF8DF21E6B52186 /* JVUIAlertControllerExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JVUIAlertControllerExtensions.modulemap; sourceTree = "<group>"; };
+		2568712E9BD80507733ABB35CE045B46 /* JVUIAlertControllerExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JVUIAlertControllerExtensions.xcconfig; sourceTree = "<group>"; };
+		2759E65F27A84860EB0AA0F57EBEC853 /* JVUIAlertControllerExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JVUIAlertControllerExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A510F8613F07641104762DA91F97CC7 /* Pods-JVUIAlertControllerExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVUIAlertControllerExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		559F3F1AE5468784A5C66BFA3C54A6A0 /* Pods-JVUIAlertControllerExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVUIAlertControllerExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74A3F5E6139375D35861A62D688A1BAE /* UIAlertControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIAlertControllerExtensions.swift; path = JVUIAlertControllerExtensions/Classes/UIAlertControllerExtensions.swift; sourceTree = "<group>"; };
+		7C6504D3C58424862F705726D20E4FB9 /* JVUIAlertControllerExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JVUIAlertControllerExtensions-Info.plist"; sourceTree = "<group>"; };
+		8A6D5A32EBE0E8C84DD9DCEFEDE71D3D /* Pods-JVUIAlertControllerExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JVUIAlertControllerExtensions_Tests.modulemap"; sourceTree = "<group>"; };
+		8E9E293E2B61B6E59BBCC7BFAB1916F7 /* JVUIAlertControllerExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIAlertControllerExtensions-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		994AC3A932C33D8B1A16C5FF9342E7FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9DFC9D5956C84E4C34219C5B7F56F91A /* Pods_JVUIAlertControllerExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JVUIAlertControllerExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11634F78FBB0F82FA9CB1F445F2ABE8 /* Pods-JVUIAlertControllerExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVUIAlertControllerExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		A23F3A1C3E9EE9EFD1ADD8BA5C26C4D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A34D4439ED4831B246436DEA22AC2BF5 /* Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE154FF51252F7C1E6BED3306B495A8C /* JVUIAlertControllerExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JVUIAlertControllerExtensions-umbrella.h"; sourceTree = "<group>"; };
+		BE37468B5E33EEF83CF1AAF097FF708E /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVUIAlertControllerExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
+		D3CB265CA2516B899320DC7A3C2F0EE9 /* Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DB5151D03B79848546631CE933EE66FF /* JVUIAlertControllerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVUIAlertControllerExtensions-dummy.m"; sourceTree = "<group>"; };
+		F59B2992D91520254825E06A740F4D22 /* JVUIAlertControllerExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVUIAlertControllerExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F7F82279D3867FCF6C946409D1356748 /* Pods-JVUIAlertControllerExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVUIAlertControllerExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D67F0ACF128B6D156DE6F7D7EF1E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73AAFF979C0575BF3F3EDAB156F511A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC5175B94C3EB4BC0DD47DA2C544F51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299B73331CEF72054A550AF10ED9CA71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E79955C520D45C77FCB1F3DF848599E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F0A07B263283CC60EF8DF21E6B52186 /* JVUIAlertControllerExtensions.modulemap */,
+				2568712E9BD80507733ABB35CE045B46 /* JVUIAlertControllerExtensions.xcconfig */,
+				DB5151D03B79848546631CE933EE66FF /* JVUIAlertControllerExtensions-dummy.m */,
+				7C6504D3C58424862F705726D20E4FB9 /* JVUIAlertControllerExtensions-Info.plist */,
+				8E9E293E2B61B6E59BBCC7BFAB1916F7 /* JVUIAlertControllerExtensions-prefix.pch */,
+				BE154FF51252F7C1E6BED3306B495A8C /* JVUIAlertControllerExtensions-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JVUIAlertControllerExtensions";
+			sourceTree = "<group>";
+		};
+		4EE1AB14285B5026FE3385CA56B989B0 /* JVUIAlertControllerExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				74A3F5E6139375D35861A62D688A1BAE /* UIAlertControllerExtensions.swift */,
+				C5A9967123A172104798E7113B44F977 /* Pod */,
+				2E79955C520D45C77FCB1F3DF848599E /* Support Files */,
+			);
+			name = JVUIAlertControllerExtensions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D1437D2D5A70980D4033236EB3A53AD7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B2845636F8F89192C4AC0C5FEB614FA9 /* Products */,
+				F330F54533AAA4D927962801D12FC5D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B2845636F8F89192C4AC0C5FEB614FA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2759E65F27A84860EB0AA0F57EBEC853 /* JVUIAlertControllerExtensions.framework */,
+				9DFC9D5956C84E4C34219C5B7F56F91A /* Pods_JVUIAlertControllerExtensions_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4FC2B7F0EDFAFB4F1295D27B8466272 /* Pods-JVUIAlertControllerExtensions_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8A6D5A32EBE0E8C84DD9DCEFEDE71D3D /* Pods-JVUIAlertControllerExtensions_Tests.modulemap */,
+				D3CB265CA2516B899320DC7A3C2F0EE9 /* Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.markdown */,
+				A34D4439ED4831B246436DEA22AC2BF5 /* Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.plist */,
+				BE37468B5E33EEF83CF1AAF097FF708E /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m */,
+				F7F82279D3867FCF6C946409D1356748 /* Pods-JVUIAlertControllerExtensions_Tests-frameworks.sh */,
+				13A347DDE3ADE4DBA7B3FE6B4D60376E /* Pods-JVUIAlertControllerExtensions_Tests-Info.plist */,
+				A11634F78FBB0F82FA9CB1F445F2ABE8 /* Pods-JVUIAlertControllerExtensions_Tests-umbrella.h */,
+				559F3F1AE5468784A5C66BFA3C54A6A0 /* Pods-JVUIAlertControllerExtensions_Tests.debug.xcconfig */,
+				2A510F8613F07641104762DA91F97CC7 /* Pods-JVUIAlertControllerExtensions_Tests.release.xcconfig */,
+			);
+			name = "Pods-JVUIAlertControllerExtensions_Tests";
+			path = "Target Support Files/Pods-JVUIAlertControllerExtensions_Tests";
+			sourceTree = "<group>";
+		};
+		C5A9967123A172104798E7113B44F977 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F59B2992D91520254825E06A740F4D22 /* JVUIAlertControllerExtensions.podspec */,
+				A23F3A1C3E9EE9EFD1ADD8BA5C26C4D8 /* LICENSE */,
+				994AC3A932C33D8B1A16C5FF9342E7FE /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D1437D2D5A70980D4033236EB3A53AD7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EE1AB14285B5026FE3385CA56B989B0 /* JVUIAlertControllerExtensions */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F330F54533AAA4D927962801D12FC5D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4FC2B7F0EDFAFB4F1295D27B8466272 /* Pods-JVUIAlertControllerExtensions_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		52FFA64B5A40490D9773F33ABEB72F30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E1F77ED162CF7F734F655F4C89A5A5 /* Pods-JVUIAlertControllerExtensions_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD622F97F6AF815953F7AAEF3282B245 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3605DC80143D239EF8A73824619CD02 /* JVUIAlertControllerExtensions-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4ECF3FB683F5EC6BF55D49AD4CCC914D /* Pods-JVUIAlertControllerExtensions_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ADED837E6E85B2BCC36428A26E44325 /* Build configuration list for PBXNativeTarget "Pods-JVUIAlertControllerExtensions_Tests" */;
+			buildPhases = (
+				52FFA64B5A40490D9773F33ABEB72F30 /* Headers */,
+				0288AD452F3AFA8BCB15F2E4336FB4C8 /* Sources */,
+				6BC5175B94C3EB4BC0DD47DA2C544F51 /* Frameworks */,
+				3163E667B8529C4887B127EB1E9F73D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0225039A850B3C3E7038A42186BAA82E /* PBXTargetDependency */,
+			);
+			name = "Pods-JVUIAlertControllerExtensions_Tests";
+			productName = "Pods-JVUIAlertControllerExtensions_Tests";
+			productReference = 9DFC9D5956C84E4C34219C5B7F56F91A /* Pods_JVUIAlertControllerExtensions_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C93C26A4AB57A00BB5E727349CACA9DA /* JVUIAlertControllerExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 534D002B3CA66B1984F1E61D9A224622 /* Build configuration list for PBXNativeTarget "JVUIAlertControllerExtensions" */;
+			buildPhases = (
+				DD622F97F6AF815953F7AAEF3282B245 /* Headers */,
+				DEE10956BD75D3666674CDD53B66E9AE /* Sources */,
+				47D67F0ACF128B6D156DE6F7D7EF1E80 /* Frameworks */,
+				2883BDF06D16531CBE1115157E0B5B76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JVUIAlertControllerExtensions;
+			productName = JVUIAlertControllerExtensions;
+			productReference = 2759E65F27A84860EB0AA0F57EBEC853 /* JVUIAlertControllerExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B2845636F8F89192C4AC0C5FEB614FA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93C26A4AB57A00BB5E727349CACA9DA /* JVUIAlertControllerExtensions */,
+				4ECF3FB683F5EC6BF55D49AD4CCC914D /* Pods-JVUIAlertControllerExtensions_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2883BDF06D16531CBE1115157E0B5B76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3163E667B8529C4887B127EB1E9F73D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0288AD452F3AFA8BCB15F2E4336FB4C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE5BB90423BA927C78BC98649A5D761 /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEE10956BD75D3666674CDD53B66E9AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				534981AE24F382562D5009222E039EFC /* JVUIAlertControllerExtensions-dummy.m in Sources */,
+				A5B841953D9AADC2F93282F3BFB2D04A /* UIAlertControllerExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0225039A850B3C3E7038A42186BAA82E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JVUIAlertControllerExtensions;
+			target = C93C26A4AB57A00BB5E727349CACA9DA /* JVUIAlertControllerExtensions */;
+			targetProxy = 9DB4C5DDB4CE73539D44D2A6855824B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11E53455B64CDC842F96BD69A855EAF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2568712E9BD80507733ABB35CE045B46 /* JVUIAlertControllerExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVUIAlertControllerExtensions;
+				PRODUCT_NAME = JVUIAlertControllerExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55A9B25C2D7E908C7F5D9115214B4B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2568712E9BD80507733ABB35CE045B46 /* JVUIAlertControllerExtensions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JVUIAlertControllerExtensions/JVUIAlertControllerExtensions.modulemap";
+				PRODUCT_MODULE_NAME = JVUIAlertControllerExtensions;
+				PRODUCT_NAME = JVUIAlertControllerExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9B5009BA363678042913359DF319E703 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559F3F1AE5468784A5C66BFA3C54A6A0 /* Pods-JVUIAlertControllerExtensions_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVUIAlertControllerExtensions_Tests/Pods-JVUIAlertControllerExtensions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVUIAlertControllerExtensions_Tests/Pods-JVUIAlertControllerExtensions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A0E01FFBCCFD794F830F46D7AAB22E8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A510F8613F07641104762DA91F97CC7 /* Pods-JVUIAlertControllerExtensions_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JVUIAlertControllerExtensions_Tests/Pods-JVUIAlertControllerExtensions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JVUIAlertControllerExtensions_Tests/Pods-JVUIAlertControllerExtensions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		534D002B3CA66B1984F1E61D9A224622 /* Build configuration list for PBXNativeTarget "JVUIAlertControllerExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11E53455B64CDC842F96BD69A855EAF0 /* Debug */,
+				55A9B25C2D7E908C7F5D9115214B4B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ADED837E6E85B2BCC36428A26E44325 /* Build configuration list for PBXNativeTarget "Pods-JVUIAlertControllerExtensions_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5009BA363678042913359DF319E703 /* Debug */,
+				A0E01FFBCCFD794F830F46D7AAB22E8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

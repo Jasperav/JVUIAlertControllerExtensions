@@ -1,0 +1,6 @@
+framework module JVUIAlertControllerExtensions {
+  umbrella header "JVUIAlertControllerExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}
