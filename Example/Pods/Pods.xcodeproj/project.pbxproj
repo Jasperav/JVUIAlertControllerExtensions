@@ -48,7 +48,7 @@
 		BE37468B5E33EEF83CF1AAF097FF708E /* Pods-JVUIAlertControllerExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVUIAlertControllerExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
 		D3CB265CA2516B899320DC7A3C2F0EE9 /* Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JVUIAlertControllerExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB5151D03B79848546631CE933EE66FF /* JVUIAlertControllerExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JVUIAlertControllerExtensions-dummy.m"; sourceTree = "<group>"; };
-		F59B2992D91520254825E06A740F4D22 /* JVUIAlertControllerExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVUIAlertControllerExtensions.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F59B2992D91520254825E06A740F4D22 /* JVUIAlertControllerExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JVUIAlertControllerExtensions.podspec; sourceTree = "<group>"; };
 		F7F82279D3867FCF6C946409D1356748 /* Pods-JVUIAlertControllerExtensions_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JVUIAlertControllerExtensions_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
