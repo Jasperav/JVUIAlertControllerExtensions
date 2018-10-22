@@ -20,4 +20,10 @@ public extension UIAlertController {
             UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
         }))
     }
+    
+    public func addAction(_ action: UIAlertAction?) {
+        guard let action = action else { return }
+        
+        addAction(action)
+    }
 }
