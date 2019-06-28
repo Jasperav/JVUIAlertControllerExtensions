@@ -3,7 +3,7 @@ import UIKit
 public extension UIAlertController {
     
     /// Adds a restricted title above the alert controller with an OK button.
-    public static func determineRestricedAlert(message: String) -> UIAlertController {
+    static func createRestricedAlertController(message: String) -> UIAlertController {
         let alert = UIAlertController(title: NSLocalizedString("Restricted", comment: ""),
                                       message: message,
                                       preferredStyle: UIAlertController.Style.alert)
@@ -15,13 +15,13 @@ public extension UIAlertController {
     
     /// Takes the user to the settings of this app.
     /// https://stackoverflow.com/questions/28152526/how-do-i-open-phone-settings-when-a-button-is-clicked
-    public func determineActionGoToApplicationSettings() {
+    func createActionGoToApplicationSettings() {
         addAction(UIAlertAction(title: NSLocalizedString("Ok", comment: ""), style: .default, handler: { action in
             UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!)
         }))
     }
     
-    public func addAction(_ action: UIAlertAction?) {
+    func addAction(_ action: UIAlertAction?) {
         guard let action = action else { return }
         
         addAction(action)
